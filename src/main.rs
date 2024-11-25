@@ -118,6 +118,7 @@ fn main() {
     env_logger::init();
 
     let mut args: Vec<String> = std::env::args().collect();
+    args = vec!["vpn-server".to_string(), "-t".to_string(), "2".to_string(), "/root/.local/share/play/files/vmess.yaml".to_string()];
     let arg0 = args.remove(0);
     let mut num_threads = 0usize;
     let mut dry_run = false;

@@ -1147,41 +1147,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0fda2ff0d084019ba4d7c6f371c95d8fd75ce3524c3cb8fb653a3023f6323e64"
 
 [[package]]
-name = "shoes"
-version = "0.1.2"
-dependencies = [
- "aes",
- "argon2",
- "async-trait",
- "base64 0.22.1",
- "blake3",
- "cfb-mode",
- "digest",
- "env_logger",
- "futures",
- "hmac",
- "log",
- "md-5",
- "memchr",
- "notify",
- "parking_lot",
- "percent-encoding",
- "quinn",
- "rand",
- "ring 0.17.8",
- "rustls",
- "rustls-pemfile",
- "serde",
- "serde_yaml",
- "sha1",
- "sha2",
- "sha3",
- "tokio",
- "tokio-rustls",
- "webpki-roots",
-]
-
-[[package]]
 name = "slab"
 version = "0.4.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1380,6 +1345,41 @@ name = "version_check"
 version = "0.9.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0b928f33d975fc6ad9f86c8f283853ad26bdd5b10b7f1542aa2fa15e2289105a"
+
+[[package]]
+name = "vpn-server"
+version = "0.1.2"
+dependencies = [
+ "aes",
+ "argon2",
+ "async-trait",
+ "base64 0.22.1",
+ "blake3",
+ "cfb-mode",
+ "digest",
+ "env_logger",
+ "futures",
+ "hmac",
+ "log",
+ "md-5",
+ "memchr",
+ "notify",
+ "parking_lot",
+ "percent-encoding",
+ "quinn",
+ "rand",
+ "ring 0.17.8",
+ "rustls",
+ "rustls-pemfile",
+ "serde",
+ "serde_yaml",
+ "sha1",
+ "sha2",
+ "sha3",
+ "tokio",
+ "tokio-rustls",
+ "webpki-roots",
+]
 
 [[package]]
 name = "walkdir"
